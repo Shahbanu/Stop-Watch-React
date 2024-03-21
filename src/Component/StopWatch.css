@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(146, 146, 146);
+}
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    
+}
+
+.stopwatch h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+}
+.display{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+}
+.controls{
+    padding: 30px;
+
+}
+button{
+    padding: 10px;
+}
+
+.start-btn{
+    background-color: green;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.stop-btn{
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.reset-btn{
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+}
